@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+
+
+    <main id="main" class="main">
+        <section class="input_section" id="input_section">
+            <h2 id="sec_head">Know Your Weather</h2>
+            <div class="input_wrapper" id="input_wrapper">
+                <input id="inpBox" autocomplete="on" type="text" placeholder="Enter Your City">
+                <button id="inp_btn">Get Weather</button>
+            </div>
+        </section>
+        <section class="weather_section" id="weather_section">
+            <div class="weather_icon">
+                <img id="icon_img" src="" alt="">
+            </div>
+            <div class="temp">
+                <p id="temp"></p>
+                <span>&deg;C</span>
+            </div>
+            <div class="weather_desc">
+                <p id="desc">__</p>
+            </div>
+            <div class="place_details">
+                <span id="place">__</span>
+                <span id="country"></span>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
